@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 475px;
+}
+
+.content_landing {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.text-xl {
+  color: white;
+}
+
+.btn_start {
+  background-color: #dbd9d9;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 4px;
+  width: 96px;
+  font-size: 20px;
+}

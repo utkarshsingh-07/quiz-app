@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.font_style {
+  font-family: cursive;
+}
+
+.output {
+  padding: 50px;
+}
+
+.score {
+  padding-top: 10px;
+}
+
+.output_last {
+  width: 30%;
+  padding-top: 10px;
+}

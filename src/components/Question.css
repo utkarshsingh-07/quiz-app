@@ -1,0 +1,108 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.question_container {
+  width: 70%;
+  padding: 40px;
+}
+
+.text-base {
+  color: white;
+}
+h2 {
+  white-space: nowrap;
+}
+
+.question_number {
+  font-size: 35px;
+  color: yellow;
+  padding-right: 10px;
+}
+
+.radio_option {
+  margin-left: 30px;
+}
+.checkbox_option {
+  margin-left: 20px;
+}
+
+.label_radio {
+  padding-left: 10px;
+  color: white;
+}
+
+input[type="radio"]:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+
+input[type="radio"]:checked:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  position: relative;
+  background-color: yellow;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+input[type="checkbox"]:after {
+  width: 12px;
+  height: 12px;
+  top: -6px;
+  border-radius: 2px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+
+input[type="checkbox"]:checked:after {
+  width: 12px;
+  height: 12px;
+  top: -6px;
+  border-radius: 2px;
+  position: relative;
+  background-color: yellow;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+
+.btn_answer_submit {
+  background-color: #dbd9d9 !important;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 4px;
+  width: 96px;
+  height: 37px;
+  font-size: 12px;
+  font-weight: bold;
+}
+form {
+  padding: 10px;
+}
+
+.arrow {
+  transform: rotate(180deg);
+}
+.arrow_align_left {
+  padding-top: 40px;
+  padding-right: 20px;
+}
+.arrow_align_right {
+  padding-top: 40px;
+  padding-right: 30px;
+}
